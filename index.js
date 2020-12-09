@@ -40,11 +40,11 @@ function addControllers(router, dir, prefix) {
 }
 
 /**
- * @param KoaRouter { Router }
+ * @param KoaRouter {Router}
  * @param dir { string }
  * @param {Object=} opts
  * @param {String=} opts.prefix prefix router paths
- * @constructor
+ * @return {Router<any,{}>}
  */
 module.exports = function koaRouterExpand(KoaRouter, dir, opts) {
   const router = new KoaRouter(opts)
