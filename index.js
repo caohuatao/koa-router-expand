@@ -32,7 +32,7 @@ function addMapping(router, mapping, prefix) {
 function addControllers(router, dir, prefix) {
   glob(path.resolve(dir, `**/*.js`), {}, function (err, files) {
     files.map(f => {
-      console.log(`process controller: ${f.replace(path.resolve(dir), '')}...`)
+      console.log(`process controller: ${f}...`)
       let mapping = require(f)
       addMapping(router, mapping, prefix)
     })
