@@ -1,8 +1,9 @@
 {
   "name": "koa-router-expand",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy to use koa-router.",
-  "main": "index.js",
+  "main": "./index.js",
+  "types": "./main.d.ts",
   "repository": "https://github.com/caohuatao/koa-router-expand.git",
   "author": "caohuatao <351995664@qq.com>",
   "license": "MIT",

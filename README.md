@@ -35,7 +35,7 @@ const
   , koaBody = require('koa-body')
   , koaLogger = require('koa-logger')
   , routerExpand = require("koa-router-expand")
-  , router = routerExpand(KoaRouter, '/prefix', './controller')
+  , router = routerExpand(KoaRouter, './controller', {prefix: '/prefix'})
   , app = new Koa()
 
 app
