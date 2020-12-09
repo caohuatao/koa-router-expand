@@ -1,6 +1,6 @@
 {
   "name": "koa-router-expand",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy to use koa-router.",
   "main": "./index.js",
   "types": "./main.d.ts",
